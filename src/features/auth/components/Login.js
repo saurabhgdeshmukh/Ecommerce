@@ -4,7 +4,7 @@ import {
   increment,
   incrementAsync,
   selectCount,
-} from '../AuthSlice';
+} from '../authSlice';
 export function Login() {
   const count = useSelector(selectCount);
   const dispatch = useDispatch();
