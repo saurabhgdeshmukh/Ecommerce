@@ -5,12 +5,16 @@ import {
   incrementAsync,
   selectCount,
 } from './counterSlice';
-export function Counter() {
+
+export default function Counter() {
   const count = useSelector(selectCount);
   const dispatch = useDispatch();
+
+
   return (
     <div>
       <div>
+      
        
       </div>
     </div>
